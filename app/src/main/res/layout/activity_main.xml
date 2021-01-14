@@ -6,5 +6,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/leafblowerRevolution"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/initialTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ever wanted to blow leaves?"
+        android:textColor="@android:color/white"
+        android:padding="20dp"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:id="@+id/finalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try playing Leaf Blower Revolution?"
+        android:textColor="@android:color/white"
+        android:padding="20dp"
+        android:textSize="30sp"
+        />
 </RelativeLayout>
